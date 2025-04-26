@@ -1,0 +1,1 @@
+ALTER TABLE "authenticator" ALTER COLUMN "credentialBackedUp" TYPE boolean USING "credentialBackedUp"::boolean;
